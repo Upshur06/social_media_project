@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.bodyContainer{
+  border: 2px solid purple;
+  margin-top: 10px;
+  height: 130vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.bodyContainer div{
+  border: 4px solid green;
+  height: 110vh;
+  width: 30vw;
+}
